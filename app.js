@@ -12,10 +12,10 @@ const PORT = 3000;
 
 // Configuración de la base de datos
 const db = mysql.createConnection({
-    host: 'localhost',
-    user: 'root', // Cambia esto si tu usuario es diferente
+    host: 'MYSQL8001.site4now.net',
+    user: 'a883f1_admweb', // Cambia esto si tu usuario es diferente
     password: 'Pr0yect0s', // Cambia esto si tienes contraseña
-    database: 'myappdb'
+    database: 'db_a883f1_admweb'
 });
 
 db.connect(err => {
