@@ -38,6 +38,7 @@ const upload = multer({ storage: storage });
 
 app.set('view engine', 'ejs');
 app.use(express.static('public'));
+app.set('views', __dirname + '/views');
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // Configuración de sesiones
